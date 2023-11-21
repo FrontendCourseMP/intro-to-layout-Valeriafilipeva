@@ -1,0 +1,231 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1171px;
+    width: 320px;
+   position: relative;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.ozonwb {
+    right:0;
+    bottom: 0;
+position: absolute;
+}
+
+.intro h1 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #212121;
+    margin-bottom: 26px;
+}
+
+.intro p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6C778E;
+    margin-bottom: 40px;
+}
+
+.green {
+    background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2EB897;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.email {
+    width: 280px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    color: #C3C3C3;
+    background: #FFF;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.button {
+    display: flex;
+    width: 280px;
+    padding: 16px 58px;
+    justify-content: center;
+    border-radius: 30px;
+    background: linear-gradient(91deg, #2A84EE 5.69%, #11AE88 169.72%), #11AE88;
+    box-shadow: 0px 0px 30px 0px #50ABDC;
+    margin-bottom: 77px;
+}
+
+.numbers h3 {
+    font-size: 56px;
+    font-weight: 400;
+    width: 280px;
+    margin-top: 41px;
+    color: #2A84EE;
+}
+
+.numbers p {
+    width: 280px;
+    color: #6C778E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.opportunities h3 {
+    margin-top: 56px;
+    width: 320px;
+    color: #212121;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.opportunities__tex1 {
+    margin-top: 28px;
+    width: 243px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 400;
+    width: 320px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #E8F2FC 0%, #E8F2FC 100%), linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2A84EE;
+}
+
+.opportunities__tex11 ul li {
+    width: 281px;
+    flex-shrink: 0;
+    color: #6C778E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.opportunities__tex11 {
+    width: 280px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.button2 {
+    width: 280px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%), #11AE88;
+    margin-bottom: 50px;
+}
+
+.list {
+    width: 320px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #E8F2FC 0%, #E8F2FC 100%), linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2A84EE;
+}
+
+.opportunities__text1 {
+
+    color: #212121;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.green h3 {
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.green {
+    margin-top: 60px;
+
+}
+
+.report h3 {
+    margin-top: 56px;
+    color: #212121;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.report p {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.report li {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 400;
+    width: 320px;
+    min-height: 84px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #EAF3FD;
+}
+
+.why h3 {
+    margin-top: 66px;
+    margin-bottom: 25px;
+    color: #212121;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.why_container {
+    width: 320px;
+    min-height: 149px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #EAF3FD 0%, #EAF3FD 100%),
+        #2A84EE;
+    margin-bottom: 10px;
+}
+
+.why_navigation {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.why_navigation p {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.green {
+    margin-top: 60px;
+    background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2EB897;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.green h3 {
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.tariff h3 {
+margin-top: 56px;
+margin-bottom:41px;
+color: #212121;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* .tariff1{
+    
+} */
