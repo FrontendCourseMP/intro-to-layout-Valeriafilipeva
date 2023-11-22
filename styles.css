@@ -1,0 +1,16 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 320px;
+    position: relative;
+
+}
+
+.contacts {
+font-size: 28px;
+    font-weight: 400;
+    color: #212121;
+    margin-bottom: 26px;
+}
