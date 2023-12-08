@@ -569,6 +569,6 @@ footer .grid__table .insert__table:nth-child(2) {
 .images {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 14px;
     padding-bottom: 1rem;
 }
