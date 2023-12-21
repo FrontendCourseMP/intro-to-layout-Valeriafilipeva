@@ -59,11 +59,11 @@ h2 {
     padding-bottom: 1.625rem;
 }
 
-.intro h1 span1 {
+.intro h1 .span1 {
     color: var(--color-green);
 }
 
-.intro h1 span2 {
+.intro h1 .span2 {
     color: var(--color-light-blue);
 }
 
