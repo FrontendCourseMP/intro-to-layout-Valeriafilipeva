@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+legend,
+span,
+label {
+    font-size: initial;
+}
+
+button {
+    padding: 10px 5px !important;
+    border: none;
+    border-radius: 10px;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+form {
+    margin: 20rem 30rem 10rem 30rem !important;
+    font-size: 2.5rem !important;
+}
+
+input,
+select {
+    padding: 3px 6px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+input:focus+label {
+    color: green !important;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons button {
+    flex-grow: 2;
+}
+
+[required]+label {
+    color: #f44;
+}
+
+.buttons button:hover {
+    background-color: #12c !important;
+    color: azure;
+    transition-duration: 200ms;
+}
+
+.buttons button:first-of-type {
+    background: #f44;
+    font-size: 1.6rem;
+}
+
+.buttons button:last-of-type {
+    background: rgb(41, 189, 0);
+    font-size: 1.6rem;
+}
+
+form fieldset {
+    margin: 1rem;
+}
+
+dd,
+dt {
+    font-size: 2rem;
+}
+
+.footer_logo>svg {
+    transform: rotate(30deg) scale(1.5) skew(10deg, -20deg);
+}
+
+input:checked+label {
+    color: green !important;
+    font-weight: 600;
+}
+
+form:last-of-type input:checked+label {
+    text-decoration: line-through;
+}
+
+form:last-of-type li:nth-of-type(even) {
+    background: #fac;
+}
+
+form:last-of-type li:nth-of-type(odd) {
+    background: #cfa;
+}
+
+form:last-of-type label {
+    flex-grow: 2;
+    text-align: right;
+    line-height: 4rem;
+}
+
+form:last-of-type li {
+    border-radius: 10px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form:last-of-type ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
